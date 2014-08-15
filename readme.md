@@ -1,20 +1,12 @@
-# cms-kit 
-
-Path: backend/wizards/filemanager
-
-## Description
-
-This Wizard adds a File-Manager to upload & manage Files in accessible Folders (defined via some Right-Management) and lets you select a File-Path as String.
-
-
-
 # cms-kit Wizard Filemanager
 
-Path: cms-kit/backend/wizards/filemanager
+Installation path: backend/wizards/filemanager
 
 ## Description
 
-This Wizard adds a Filemanager to a Field
+This Wizard adds a File-Manager to upload & manage files in accessible folders
+(defined via some right-management) and lets you select a file-path as string.
+
 
 ## Installation
 
