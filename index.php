@@ -24,10 +24,10 @@ $theme = end($_SESSION[$projectName]['config']['theme']);
 	<title>File-Manager</title>
 	
 	<!-- jQuery and jQuery UI -->
-	<link type="text/css" rel="stylesheet" media="screen" href="../../../vendor/cmskit/lib-jquery-ui/themes/<?php echo $theme?>/jquery-ui.css" />
-	<script type="text/javascript" src="../../../vendor/cmskit/lib-jquery-ui/jquery.min.js"></script>
-	<script type="text/javascript" src="../../../vendor/cmskit/lib-jquery-ui/jquery-ui.js"></script>
-	<script type="text/javascript" src="../../../vendor/cmskit/lib-jquery-ui/jquery.ui.touchpunch.js"></script>
+	<link type="text/css" rel="stylesheet" media="screen" href="../../../vendor/cmskit/jquery-ui/themes/<?php echo $theme?>/jquery-ui.css" />
+	<script type="text/javascript" src="../../../vendor/cmskit/jquery-ui/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../vendor/cmskit/jquery-ui/jquery-ui.js"></script>
+	<script type="text/javascript" src="../../../vendor/cmskit/jquery-ui/jquery.ui.touchpunch.js"></script>
 	
 	<!-- elFinder CSS/JS -->
 	<link  href="min/elfinder.css" rel="stylesheet" type="text/css" />
