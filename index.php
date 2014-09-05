@@ -26,7 +26,7 @@ $theme = end($_SESSION[$projectName]['config']['theme']);
 	<!-- jQuery and jQuery UI -->
 	<link type="text/css" rel="stylesheet" media="screen" href="../../../vendor/cmskit/jquery-ui/themes/<?php echo $theme?>/jquery-ui.css" />
 	<script type="text/javascript" src="../../../vendor/cmskit/jquery-ui/jquery.min.js"></script>
-	<script type="text/javascript" src="../../../vendor/cmskit/jquery-ui/jquery-ui.js"></script>
+	<script type="text/javascript" src="../../../vendor/cmskit/jquery-ui/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="../../../vendor/cmskit/jquery-ui/jquery.ui.touchpunch.js"></script>
 	
 	<!-- elFinder CSS/JS -->
