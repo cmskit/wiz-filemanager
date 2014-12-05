@@ -6,6 +6,7 @@ require dirname(dirname(__DIR__)) . '/inc/php/session.php';
 error_reporting(0);//E_ALL
 
 foreach ($_GET as $k=>$v){ $$k = preg_replace('/\W/', '', $v); }
+$projectName = $_SESSION['___elfinder'] = $_GET['project'];
 
 if(!isset($_SESSION[$projectName])) exit('not active!');
 
@@ -31,10 +32,10 @@ $theme = end($_SESSION[$projectName]['config']['theme']);
 	
 	<!-- elFinder CSS/JS -->
 	<link  href="min/elfinder.css" rel="stylesheet" type="text/css" />
-	<script src="min/elfinder.js" type="text/javascript" charset="utf-8"></script>
+	<script src="min/elfinder.js" type="text/javascript"></script>
 	
 	<!-- elfinder Language -->
-	<script src="i18n/elfinder.<?php echo $lang;?>.js" type="text/javascript" charset="utf-8"></script>
+	<script src="i18n/elfinder.<?php echo $lang;?>.js" type="text/javascript"></script>
 
 	<script type="text/javascript" charset="utf-8">
 		
