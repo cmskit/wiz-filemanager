@@ -1,7 +1,7 @@
 {
     "name": "cmskit/wizard-filemanager",
     "type": "library",
-    "version": "0.0.0",
+    "version": "0.4.0",
     "description": "A cms-kit wizard to manage files in file folder and pick filepaths",
     "license": "GPL",
     "authors": [
